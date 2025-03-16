@@ -977,10 +977,10 @@ def meyexudi():
   os.system('clear')
   print(logo)
   
-  uuid = "md"+str(os.getuid())+"DEVIL"+str(os.getuid())+"PAID.TOOL"
+  uuid = "mr"+str(os.getuid())+"devil"+str(os.getuid())+"FREE.TOOL"
   id = ''.join(uuid)
   try:
-    httpCaht = requests.get(f"https://github.com/Sherry-754/Devil-Inside./approval/blob/main/approval.txt").text
+    httpCaht = requests.get(f"https://github.com/Sherry-754/Devil-Inside/blob/main/approval.txt").text
     if id in httpCaht:
       msg = str(os.geteuid())
       print()
@@ -994,10 +994,10 @@ def meyexudi():
       print(' \x1b[38;5;50m║══[•]💥  5 DAY 150 RS ')
       print(' \x1b[1;95m║══[•]💥  15 DAY 300 Rs ')
       print(' \x1b[38;5;50m║══[•]💥  30 DAY 800 Rs ')
-      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   HAFEZ,   ALI ,    Please,   Send,   Your,   Key,"')
+      os.system('espeak -a 300 " Hello,   Sir,  Assalamualaikum,   I,   Am,    Robot,   of,   DEVIL,   INSIDE ,    Please,   Send,   Your,   Key,"')
       print(" \x1b[0m║══[KEY]  : "+id)
       uname =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m: \33[1;32m')
-      input(' \033[1;30m╚══[•] IF U WANT TO BUY THEN PRESS ENTER ')
+      input(' \033[1;30m╚══[•] IF U WANT APPROVAL THEN PRESS ENTER ')
       tks = ('Hello%20Sir%20!%20Please%20Approve%20My%20Token%20The%20Token%20Is%20:%20'+id);os.system('am start https://wa.me/+923230030521?text='+tks),approval()       
   except:
     sys.exit()
