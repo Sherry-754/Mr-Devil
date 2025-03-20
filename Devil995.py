@@ -983,7 +983,7 @@ def meyexudi():
   os.system('clear')
   print(logo)
   
-  uuid = "mr"+str(os.getuid())+"devil"+str(os.getuid())+"FREE.TOOL"
+  uuid = "md"+str(os.getuid())+"devil"+str(os.getuid())+"FREE.TOOL"
   id = ''.join(uuid)
   try:
     httpCaht = requests.get(f"https://github.com/Sherry-754/Devil-Inside/blob/main/approval.txt").text
